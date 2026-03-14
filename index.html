@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VIGILANT.ai</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<div>
+
+<h2>🛡 VIGILANT.ai</h2>
+
+<div class="menu">
+<button onclick="showPage('dashboard')">Dashboard</button>
+<button onclick="showPage('vault')">Truth Vault</button>
+</div>
+
+</div>
+
+<div class="status">
+Firewall Active<br>
+v2.4.0 Stable
+</div>
+
+</div>
+
+<!-- Main -->
+
+<div class="main">
+
+<!-- Dashboard Page -->
+
+<div id="dashboard" class="page active">
+
+<h1>AI Hallucination Firewall</h1>
+<p>Real-time semantic verification against high-stakes documentation.</p>
+
+<div class="search">
+
+<input id="question" placeholder="Ask the AI about reactor core or safety protocols...">
+
+<button onclick="verify()">Verify</button>
+
+</div>
+
+<div id="result" class="result"></div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Latency</h3>
+<p>42 ms</p>
+</div>
+
+<div class="card">
+<h3>Truth Shards</h3>
+<p>14.2K</p>
+</div>
+
+<div class="card">
+<h3>Accuracy</h3>
+<p>99.8%</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- Truth Vault Page -->
+
+<div id="vault" class="page">
+
+<h1>Truth Vault (Vector DB)</h1>
+
+<table>
+
+<tr>
+<th>Fragment ID</th>
+<th>Document</th>
+<th>Metadata</th>
+<th>Integrity</th>
+</tr>
+
+<tr>
+<td>KB-1</td>
+<td>core_v4_manual.pdf</td>
+<td>Maximum safe operating temperature is 1200°C</td>
+<td class="verified">VERIFIED</td>
+</tr>
+
+<tr>
+<td>KB-2</td>
+<td>core_v4_manual.pdf</td>
+<td>Emergency protocol requires evacuation in 5 minutes</td>
+<td class="verified">VERIFIED</td>
+</tr>
+
+<tr>
+<td>KB-3</td>
+<td>core_v4_manual.pdf</td>
+<td>Stabilizer calibration every 24 hours</td>
+<td class="verified">VERIFIED</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
