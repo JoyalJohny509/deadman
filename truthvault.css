@@ -1,0 +1,48 @@
+/* Truth Vault */
+
+.vault-title{
+margin-bottom:25px;
+font-size:28px;
+}
+
+.vault-container{
+background:#111827;
+padding:25px;
+border-radius:12px;
+}
+
+/* Table */
+
+.vault-table{
+width:100%;
+border-collapse:collapse;
+}
+
+.vault-table th{
+text-align:left;
+padding:15px;
+font-size:14px;
+color:#9ca3af;
+border-bottom:1px solid #374151;
+}
+
+.vault-table td{
+padding:18px;
+border-bottom:1px solid #374151;
+line-height:1.5;
+}
+
+.vault-table tr:hover{
+background:#1f2937;
+}
+
+/* Verified badge */
+
+.verified{
+background:#064e3b;
+color:#34d399;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+}
