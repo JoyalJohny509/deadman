@@ -3,6 +3,7 @@
 <head>
 <title>VIGILANT.ai</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
@@ -16,8 +17,8 @@
 <h2>🛡 VIGILANT.ai</h2>
 
 <div class="menu">
-<button onclick="showPage('dashboard')">Dashboard</button>
-<button onclick="showPage('vault')">Truth Vault</button>
+<button onclick="showPage('dashboard')"><i data-lucide="zap"></i> Dashboard</button>
+<button onclick="showPage('vault')"><i data-lucide="database"></i> Truth Vault</button>
 </div>
 
 </div>
@@ -114,6 +115,8 @@ v2.4.0 Stable
 </div>
 
 <script src="script.js"></script>
-
+<script>
+lucide.createIcons();
+</script>
 </body>
 </html>
